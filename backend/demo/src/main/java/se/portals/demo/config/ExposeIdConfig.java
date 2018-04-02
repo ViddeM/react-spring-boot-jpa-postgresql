@@ -1,4 +1,4 @@
-package se.portals.demo;
+package se.portals.demo.config;
 
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
@@ -7,7 +7,7 @@ import se.portals.demo.entity.Group;
 import se.portals.demo.entity.User;
 
 @Component
-public class ExposeId extends RepositoryRestConfigurerAdapter {
+public class ExposeIdConfig extends RepositoryRestConfigurerAdapter {
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
